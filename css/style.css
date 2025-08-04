@@ -1,0 +1,210 @@
+/* style.css for Bespoke Tone Landing Page */
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'PT Serif', serif;
+    background-color: #ffffff;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.nav {
+    position: relative;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #4f4f4f;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+/* Sections */
+.section {
+    padding: 100px 2rem 60px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro {
+    background: url('images/jennifer_van_elk_favorites-0020.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 160px 2rem;
+    position: relative;
+}
+
+.intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.intro-content {
+    position: relative;
+    z-index: 1;
+}
+
+.intro h2,
+.intro h3 {
+    font-family: 'Hanuman', serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.section h2 {
+    font-family: 'Hanuman', serif;
+    text-transform: uppercase;
+    color: #598884;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section p,
+.section blockquote {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    font-style: italic;
+}
+
+blockquote footer {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-family: 'Quattrocento', serif;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #598884;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Quattrocento', serif;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    opacity: 0.9;
+}
+
+.form-container {
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-family: 'Quattrocento', serif;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #598884;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 2rem;
+    background: #f7f7f7;
+    font-family: 'Quattrocento', serif;
+    font-size: 0.9rem;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.97);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        font-size: 1.5rem;
+        z-index: 999;
+    }
+
+    .nav-links.nav-active {
+        display: flex;
+    }
+}
