@@ -1,0 +1,49 @@
+<!-- _layouts/noTracking.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="icon" href="{{ '/images/global/favicon.ico' | relative_url }}" type="image/x-icon">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="{{ page.title | escape }} | {{ site.title | escape }}">
+    <meta name="description"
+        content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | escape }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ page.title | escape }} | {{ site.title | escape }}">
+    <meta property="og:description"
+        content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | escape }}">
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:title" content="{{ page.title | escape }} | {{ site.title | escape }}">
+    <meta name="twitter:description"
+        content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 | escape }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
+    <link rel="preload" href="{{ '/fonts/Quattrocento.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/fonts/Hanuman-Regular.woff2' | relative_url }}" as="font" type="font/woff2"
+        crossorigin>
+    <link rel="preload" href="{{ '/fonts/PTSerif-Regular.woff2' | relative_url }}" as="font" type="font/woff2"
+        crossorigin>
+</head>
+
+<body>
+    {% include header-noTracking.html %}
+    <main>
+        {{ content }}
+    </main>
+    {% include footer.html %}
+    <script src="{{ '/js/script.js' | relative_url }}"></script>
+</body>
+
+</html>

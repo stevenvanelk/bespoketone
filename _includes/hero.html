@@ -1,0 +1,19 @@
+<div class="hero">
+    <img src="{{ include.image | relative_url }}" srcset="
+        {{ include.image_small | relative_url }} 480w,
+        {{ include.image_small | relative_url }} 768w,
+        {{ include.image | relative_url }} 1920w
+      " sizes="100vw" alt="{{ include.alt }}" class="hero-img">
+    <div class="hero-text-wrapper">
+        <div class="hero-text">
+            <div class="hero-content">
+                <h1>{{ include.heading }}</h1>
+                <p>{{ include.content }}</p>
+                <h2>{{ include.subheading }}</h2>
+                {% if include.cta_url and include.cta_label %}
+                <a href="{{ include.cta_url | relative_url }}" class="cta-button">{{ include.cta_label }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>

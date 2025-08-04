@@ -1,0 +1,5 @@
+# Bespoke Tone robots.txt
+User-agent: *
+Disallow:
+
+Sitemap: https://bespoketone.com/sitemap.xml
