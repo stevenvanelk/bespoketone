@@ -2,8 +2,7 @@
 layout: homePage
 title: Home
 description: Helping photographers grow with custom editing and mentoring services.
-image: /images/index/bespoke-tone-edits-46.webp
-image_small: /images/index/bespoke-tone-favorites-0020.webp
+image: /images/global/bespoke-tone-social-sharing.webp
 ---
 {% include hero.html
   image="/images/index/bespoke-tone-edits-46.webp"

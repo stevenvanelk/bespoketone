@@ -2,8 +2,7 @@
 layout: noTracking
 title: Privacy Policy
 description: Learn how Bespoke Tone collects, uses, and protects your data. Read our full privacy policy to understand your rights and how we use cookies and analytics.
-image: /images/index/bespoke-tone-edits-46.webp
-image_small: /images/index/bespoke-tone-favorites-0020.webp
+image: /images/global/bespoke-tone-social-sharing.webp
 ---
 {% include hero.html
   image="/images/index/bespoke-tone-edits-46.webp"

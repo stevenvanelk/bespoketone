@@ -2,8 +2,7 @@
 layout: default
 title: Contact
 description: Get in touch with Bespoke Tone. Whether you have questions, collaboration ideas, or just want to say hello, we’d love to hear from you. Fill out the form or reach out directly via email.
-image: /images/contact/contact.webp
-image_small: /images/contact/contact-small.webp
+image: /images/global/bespoke-tone-social-sharing.webp
 ---
 
 {% include hero.html
