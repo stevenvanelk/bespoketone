@@ -470,18 +470,23 @@ footer a:hover {
 
 .footer-social-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    /* 🟢 THIS is the key */
     justify-content: center;
-    gap: 8px;
+    gap: 12px;
+    height: 100%;
 }
 
 .footer-social-container h3 {
     margin: 0;
-    font-size: 18px;
-    line-height: 1.2;
-    align-items: center;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: uppercase;
+    color: white !important;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    height: 24px;
 }
 
 .social-icon {
