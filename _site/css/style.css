@@ -90,10 +90,27 @@ h3 {
 }
 
 .logo {
+    display: block;
+    max-width: none !important;
+    width: 313px;
+    height: 30px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    height: 30px;
+    width: 312.8px;
+    /* width of full-size logo */
+    overflow: hidden;
+    position: relative;
+}
+
+.logo-wrapper picture {
+    display: block;
     height: 100%;
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
+    width: 100%;
+    position: relative;
 }
 
 .logo img {
@@ -674,6 +691,13 @@ footer a:hover {
     font-style: italic !important;
     text-align: center !important;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        width: 49.34px !important;
+        height: 30px !important;
+    }
 }
 
 /* Responsive Navigation */

@@ -42,4 +42,29 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+      const logo = document.querySelector(".logo");
+    if (logo) {
+        let lastIsMobile = window.innerWidth <= 1000;
+
+        window.addEventListener("resize", () => {
+            const isMobile = window.innerWidth <= 1000;
+
+            if (isMobile !== lastIsMobile) {
+                logo.style.opacity = 0;
+                setTimeout(() => {
+                    logo.src = isMobile
+                      ? "/images/global/bt-logo_small.webp"
+                      : "/images/global/bespoketone-logo.webp";
+                    logo.onload = () => {
+                        logo.style.opacity = 1;
+                    };
+                }, 150);
+
+                lastIsMobile = isMobile;
+            }
+        });
+    } else {
+        console.error("Error: .logo image not found in DOM.");
+    }
 });
