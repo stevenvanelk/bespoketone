@@ -39,12 +39,16 @@
 
 <body>
     <header class="site-header">
-    <a href="/">
-        <img src="/images/global/bespoketone-logo.webp" alt="Bespoke Tone Logo" class="logo"
-            style="height:30px" />
-    </a>
+    <div class="logo-container">
+        <a href="/">
+            <picture>
+                <source srcset="/images/global/bt-logo_small.webp" media="(max-width: 1000px)">
+                <img src="/images/global/bespoketone-logo.webp" alt="Bespoke Tone Logo" class="logo" style="height: 30px" />
+            </picture>
+        </a>
+    </div>
     <nav class="nav">
-        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <div class="menu-toggle">☰</div>
         <ul class="nav-links">
             <li><a href="/#intro">Home</a></li>
             <li><a href="/#about">About</a></li>
@@ -131,7 +135,6 @@
     </div>
 </footer>
 <script src="/js/script.js" defer></script>
-    <script src="/js/script.js"></script>
 </body>
 
 </html>

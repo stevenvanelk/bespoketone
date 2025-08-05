@@ -1,24 +1,33 @@
-// --- Menu toggle & footer year ---
 document.addEventListener("DOMContentLoaded", function () {
-  const menuToggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector(".nav-links");
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".nav-links");
 
-  if (menuToggle && nav) {
-    menuToggle.addEventListener("click", function () {
-      nav.classList.toggle("nav-active");
-    });
+    if (menuToggle && nav) {
+        console.log("Menu toggle found, adding event listener.");
+        
+        menuToggle.addEventListener("click", function () {
+            console.log("Hamburger menu clicked!");
+            nav.classList.toggle("nav-active");
+            console.log("Current nav classList:", nav.classList);
+        });
 
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        nav.classList.remove('nav-active');
-      });
-    });
-  }
+        // 👇 Auto-close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('nav-active');
+            });
+        });
+    } else {
+        console.error("Error: menu-toggle or nav-links not found in DOM.");
+    }
 
-  const yearElement = document.getElementById("year");
-  if (yearElement) {
-    yearElement.textContent = new Date().getFullYear();
-  }
+    // Update the footer year automatically
+    const yearElement = document.getElementById("year");
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    } else {
+        console.error("Error: #year element not found in DOM.");
+    }
 
   // Optional: smooth scroll behavior fallback for older browsers
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {

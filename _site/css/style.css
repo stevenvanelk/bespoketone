@@ -103,23 +103,33 @@ h4 {
     display: block;
 }
 
-.nav {
-    position: relative;
-    margin-right: 2em;
-}
-
-.menu-toggle {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
+/* Navigation Styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .nav-links {
-    display: flex;
-    gap: 1.5rem;
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns items to the right */
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    /* Allows it to take full space */
+    white-space: nowrap;
+    position: static;
+    /* Keeps it inside the header */
+    text-transform: uppercase;
+}
+
+.nav-links li {
+    display: inline-block;
 }
 
 .nav-links a {
@@ -137,6 +147,19 @@ h4 {
 
 .nav-links a:hover {
     opacity: 0.7;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #598884;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1100;
 }
 
 /* Hero Image */
@@ -652,26 +675,35 @@ footer a:hover {
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
+        z-index: 4000;
     }
 
     .nav-links {
         display: none;
         position: fixed;
         top: 0;
-        right: 0;
-        bottom: 0;
         left: 0;
+        height: 100vh;
+        width: 100vw;
         background-color: rgba(255, 255, 255, 0.97);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
-        font-size: 1.5rem;
-        z-index: 999;
+        z-index: 3000;
+        padding: 0;
+        margin: 0;
+        list-style: none;
     }
 
     .nav-links.nav-active {
-        display: flex;
+        display: flex !important;
+    }
+
+    .nav-links a {
+        font-size: 24px;
+        color: #598884;
+        text-decoration: none;
+        display: block;
     }
 
     .privacy-wrapper {
