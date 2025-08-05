@@ -2,12 +2,12 @@
 layout: noTracking
 title: Privacy Policy
 description: Learn how Bespoke Tone collects, uses, and protects your data. Read our full privacy policy to understand your rights and how we use cookies and analytics.
-image: /images/bespoke-tone-edits-46.webp
-image_small: /images/bespoke-tone-favorites-0020.webp
+image: /images/index/bespoke-tone-edits-46.webp
+image_small: /images/index/bespoke-tone-favorites-0020.webp
 ---
 {% include hero.html
-  image="/images/bespoke-tone-edits-46.webp"
-  image_small="/images/bespoke-tone-favorites-0020.webp"
+  image="/images/index/bespoke-tone-edits-46.webp"
+  image_small="/images/index/bespoke-tone-favorites-0020.webp"
   alt="flower clutch"
   heading="Privacy Policy"
   content="Just scroll down and read all the details in our privacy policy."
