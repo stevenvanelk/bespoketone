@@ -6,8 +6,8 @@ image: /images/index/bespoke-tone-edits-46.webp
 image_small: /images/index/bespoke-tone-favorites-0020.webp
 ---
 {% include hero.html
-  image="/images/bespoke-tone-edits-46.webp"
-  image_small="/images/bespoke-tone-favorites-0020.webp"
+  image="/images/index/bespoke-tone-edits-46.webp"
+  image_small="/images/index/bespoke-tone-favorites-0020.webp"
   alt="flower clutch"
   heading="Welcome"
   content="Bespoke Tone is a section of Van Elk & Co that focuses on helping photographers at all stages. We are so excited to finally put our ideas out there to educate, and even work for photographers, creating a custom experience for all. We are so thrilled to work with fellow photographers and business owners. We hope that all our hard work helps make running your business  much simpler and more enjoyable."
