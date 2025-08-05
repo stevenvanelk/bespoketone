@@ -15,7 +15,7 @@ image: /images/global/bespoke-tone-social-sharing.webp
 %}
 
 <section class="section">
-  <h2>Say Helloh</h2>
+  <h2>Say Hello</h2>
 
   <p>
     Whether you’re looking to book a mentoring session, inquire about editing services, or just want to connect, we’re happy to hear from you.

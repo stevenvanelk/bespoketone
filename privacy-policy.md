@@ -13,7 +13,7 @@ image: /images/global/bespoke-tone-social-sharing.webp
   subheading=""
 %}
 <div class="privacy-wrapper">
-    <h1>Privacy Policyh</h1>
+    <h1>Privacy Policy</h1>
     <p style="text-align: center !important; font-style: italic !important;">Effective Date: March 01, 2017</p>
     <h2>1. Introduction</h2>
     <p>Welcome to Bespoke Tone. Your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your personal information.
