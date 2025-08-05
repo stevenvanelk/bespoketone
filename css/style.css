@@ -698,10 +698,7 @@ footer a:hover {
         width: 49.34px !important;
         height: 30px !important;
     }
-}
 
-/* Responsive Navigation */
-@media (max-width: 768px) {
     .menu-toggle {
         display: block;
         z-index: 4000;
@@ -734,7 +731,10 @@ footer a:hover {
         text-decoration: none;
         display: block;
     }
+}
 
+/* Responsive Navigation */
+@media (max-width: 768px) {
     .privacy-wrapper {
         padding: 2rem 1rem;
     }
