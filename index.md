@@ -19,7 +19,7 @@ image: /images/global/bespoke-tone-social-sharing.webp
       <img src="images/index/bespoke-tone-edits.webp" alt="About Jenn and Steve" loading="lazy" />
     </div>
     <div class="card-content">
-      <h2>Why Bespoke?</h2>
+      <h2>Why Bespoke?h</h2>
     </div>
   </div>
 
