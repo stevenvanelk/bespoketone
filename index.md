@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homePage
 title: Home
 description: Helping photographers grow with custom editing and mentoring services.
 image: /images/bespoke-tone-edits-46.webp
@@ -92,13 +92,5 @@ image_small: /images/bespoke-tone-favorites-0020.webp
         </p>
       </div>
     </div>
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <h2>Say Hello</h2>
-  <div class="form-container">
-    <script src="https://www.powr.io/powr.js" external-type="html"></script>
-    <div class="powr-contact-form" id="230bd9fc_1506544881"></div>
   </div>
 </section>
