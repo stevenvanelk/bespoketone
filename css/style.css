@@ -676,6 +676,14 @@ footer a:hover {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 1000px) {
+    .logo-container img {
+        height: 30px;
+        width: auto;
+        max-height: 30px;
+    }
+}
+
 /* Responsive Navigation */
 @media (max-width: 768px) {
     .menu-toggle {
