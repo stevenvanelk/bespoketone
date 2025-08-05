@@ -2,8 +2,8 @@
 layout: homePage
 title: Home
 description: Helping photographers grow with custom editing and mentoring services.
-image: /images/bespoke-tone-edits-46.webp
-image_small: /images/bespoke-tone-favorites-0020.webp
+image: /images/index/bespoke-tone-edits-46.webp
+image_small: /images/index/bespoke-tone-favorites-0020.webp
 ---
 {% include hero.html
   image="/images/bespoke-tone-edits-46.webp"
@@ -17,7 +17,7 @@ image_small: /images/bespoke-tone-favorites-0020.webp
 <section id="about" class="section card-section">
   <div class="card">
     <div class="card-image">
-      <img src="images/bespoke-tone-edits.webp" alt="About Jenn and Steve" />
+      <img src="images/index/bespoke-tone-edits.webp" alt="About Jenn and Steve" loading="lazy" />
     </div>
     <div class="card-content">
       <h2>Why Bespoke?</h2>
@@ -58,7 +58,7 @@ image_small: /images/bespoke-tone-favorites-0020.webp
 
 <section id="editing" class="section">
   <h2>Editing Services</h2>
-  <img src="images/beforeafter.webp" alt="Before and After editing example" />
+  <img src="images/index/beforeafter.webp" alt="Before and After editing example" loading="lazy" />
   <p>We've set ourselves apart from the competition by making your experience customizable. Just as if we were a business partner, we know your style and would create a finished product as if you were doing it yourself. From basic exposure corrections to custom presets, we want to hand over fully finished galleries that can be uploaded and sent to your couple days after the shoot. We set exposure, color correct, apply a preset of your choosing, crop, and even choose 50+ images to duplicate to black and white. Your galleries reflect your style and you'll have more time to focus on the things you love.
   </p>
   <p>Custom Wedding Editing Services at $175<br />
@@ -72,7 +72,7 @@ image_small: /images/bespoke-tone-favorites-0020.webp
 <section id="reviews" class="section card-section">
   <h2>What People Say</h2>
 
-  <div class="review-card" style="background-image: url('/images/bespoke-tone-e-027.webp');">
+  <div class="review-card" style="background-image: url('/images/index/bespoke-tone-e-027.webp');">
     <div class="review-overlay">
       <div class="review-inner">
         <h4>Brittany's Review</h4>
@@ -83,7 +83,7 @@ image_small: /images/bespoke-tone-favorites-0020.webp
     </div>
   </div>
 
-  <div class="review-card" style="background-image: url('/images/bespoke-tone-edits-022.webp');">
+  <div class="review-card" style="background-image: url('/images/index/bespoke-tone-edits-022.webp');">
     <div class="review-overlay">
       <div class="review-inner">
         <h4>Brooke's Review</h4>
