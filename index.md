@@ -4,25 +4,19 @@ title: Home
 description: Helping photographers grow with custom editing and mentoring services.
 image: /images/global/bespoke-tone-social-sharing.webp
 ---
+
 {% include hero.html
   image="/images/index/bespoke-tone-edits-46.webp"
   image_small="/images/index/bespoke-tone-favorites-0020.webp"
   alt="flower clutch"
   heading="Welcome"
-  content="Bespoke Tone is a section of Van Elk & Co that focuses on helping photographers at all stages. We are so excited to finally put our ideas out there to educate, and even work for photographers, creating a custom experience for all. We are so thrilled to work with fellow photographers and business owners. We hope that all our hard work helps make running your business  much simpler and more enjoyable."
+  content="Bespoke Tone is a division of Van Elk & Co that focuses on helping photographers at all stages. We are so excited to finally put our ideas out there to educate, and even work for photographers, creating a custom experience for all. We are so thrilled to work with fellow photographers and business owners. We hope that all our hard work helps make running your business  much simpler and more enjoyable."
   subheading="Jenn & Steve"
 %}
 
-<section id="about" class="section card-section">
-  <div class="card">
-    <div class="card-image">
+<section id="about" class="section">
+    <h2>Why Bespoke?</h2>
       <img src="images/index/bespoke-tone-edits.webp" alt="About Jenn and Steve" loading="lazy" />
-    </div>
-    <div class="card-content">
-      <h2>Why Bespoke?</h2>
-    </div>
-  </div>
-
   <p>
     From day one of starting our business from scratch, we've spent countless hours educating ourselves and talking to other business owners, hoping to create a successful business. What we realized was that because every business is unique, every business needs a customized approach. There's no single service plan that can help every business.
   </p>
@@ -31,26 +25,26 @@ image: /images/global/bespoke-tone-social-sharing.webp
   </p>
 </section>
 
-
 <section id="mentoring" class="section mentoring-section">
   <h2>Mentoring</h2>
-  <div class="mentoring-columns">
-    <div class="mentoring-left">
-      <p>
-        We find so much joy in seeing others succeed, that we want to educate other business owners as they start their companies.
-        Mentoring sessions are catered to your needs, to help create a more successful year for your business.
-        Whether you are starting your business or have just hit a wall, you'd be surprised by what having an outside perspective can do.
-        We know from experience. I hope that our business successes and mistakes can help your business succeed even quicker.
-      </p>
-    </div>
-    <div class="mentoring-right">
+  <p>
+    We find so much joy in seeing others succeed, that we want to educate other business owners as they start their companies.
+    Mentoring sessions are catered to your needs, to help create a more successful year for your business.
+    Whether you are starting your business or have just hit a wall, you'd be surprised by what having an outside perspective can do.
+    We know from experience. I hope that our business successes and mistakes can help your business succeed even quicker.
+  </p>
+  <div class="card">
+    <div class="card-image">
       <h3>Some of the topics we can discuss:</h3>
-        <p> Pricing, Customer Service, Time Management, Goals, Photography Skills, Marketing, Social Media Presence, Emails, Inquiries, Motivation, & Business Management
-        </p>
+      <p> Pricing, Customer Service, Time Management, Goals, Photography Skills, Marketing, Social Media Presence, Emails, Inquiries, Motivation, & Business Management
+      </p>
       <h3>Rates</h3>
-      <p><strong>Video chat:</strong> $99 an hour</p>
-      <p><strong>In home sessions:</strong> $350 for 3–4 hours (great for new businesses)</p>
+      <p><strong>Video chat:</strong> $99 an hour<br />
+      <strong>In home sessions:</strong> $350 for 3–4 hours (great for new businesses)</p>
       <p><em>Mentoring isn't limited to photographers.</em></p>
+    </div>
+    <div class="card-image">
+      <img src="images/index/bespoke-tone-e-086.webp" alt="Young Photographer" loading="lazy" />
     </div>
   </div>
 </section>
@@ -64,7 +58,7 @@ image: /images/global/bespoke-tone-social-sharing.webp
     Custom Session Editing Services at $50<br />
     Culling Service at $.04 an image
   </p>
-  <p>If interested, please contact so we can establish your editing style profile & edit your beautiful work very soon!
+  <p>If interested, please <a href="{{ '/contact' | relative_url }}">contact us</a> so we can establish your editing style profile & edit your beautiful work very soon!
   </p>
 </section>
 

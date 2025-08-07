@@ -182,7 +182,7 @@ nav {
 /* Hero Image */
 .hero {
     position: relative;
-    height: 100vh;
+    height: 800px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -206,7 +206,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 6px;
     max-width: 100%;
-    margin: auto;
+    margin-top: 80px;
 }
 
 .hero-content {
@@ -295,17 +295,14 @@ nav {
     margin: 0 auto;
 }
 
-/* Mentoring Section */
-.mentoring-columns {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
+/* about section */
+#about img {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.mentoring-left,
-.mentoring-right {
-    flex: 1 1 400px;
-    min-width: 300px;
+#about p {
+    margin-bottom: 0 !important;
 }
 
 /* editing section */
@@ -358,7 +355,7 @@ nav {
 
 /* Sections */
 .section {
-    padding: 100px 2rem 60px;
+    padding: 30px 2rem 30px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -382,6 +379,11 @@ nav {
 
 .section.card-section {
     max-width: none;
+}
+
+.section a {
+    color: inherit;
+    text-decoration: underline;
 }
 
 .intro {
@@ -411,7 +413,7 @@ nav {
     text-transform: uppercase;
     color: #598884;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -419,7 +421,7 @@ nav {
 .section blockquote {
     font-size: 1.1rem;
     line-height: 1.7;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     text-align: justify;
 }
 
@@ -455,7 +457,6 @@ footer {
     width: 100%;
     text-align: center;
     color: white;
-    margin-top: 10px;
     position: relative;
     bottom: 0;
     left: 0;
@@ -693,6 +694,34 @@ footer a:hover {
     margin-bottom: 2rem;
 }
 
+@media (max-width: 860px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .card-image {
+        width: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card-content {
+        padding: 2rem;
+        width: 100%;
+        max-width: 860px;
+        box-sizing: border-box;
+    }
+
+    .card-section .card,
+    .card-section p {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 1000px) {
     .logo {
         width: 49.34px !important;
@@ -745,5 +774,46 @@ footer a:hover {
 
     .privacy-wrapper h2 {
         font-size: 1.4rem;
+    }
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero-text-wrapper {
+        margin-top: 80px;
+        padding: 10px;
+        border-radius: 4px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .hero-text {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero h2 {
+        font-size: 1.25rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
     }
 }
