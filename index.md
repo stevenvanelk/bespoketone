@@ -4,16 +4,17 @@ title: Home
 description: Helping photographers grow with custom editing and mentoring services.
 image: /images/global/bespoke-tone-social-sharing.webp
 ---
-
 {% include hero.html
   image="/images/index/bespoke-tone-edits-46.webp"
   image_small="/images/index/bespoke-tone-favorites-0020.webp"
   alt="flower clutch"
   heading="Welcome"
-  content="Bespoke Tone is a division of Van Elk & Co that focuses on helping photographers at all stages. We are so excited to finally put our ideas out there to educate, and even work for photographers, creating a custom experience for all. We are so thrilled to work with fellow photographers and business owners. We hope that all our hard work helps make running your business  much simpler and more enjoyable."
+  content="Bespoke Tone is a section of Van Elk & Co that focuses on helping photographers at all stages."
   subheading="Jenn & Steve"
 %}
-
+<section id="intro-cont" class="section">
+<p>We are thrilled to share our ideas and resources to educate and support photographers. We can’t wait to craft personalized experiences for photographers who need a bit of extra help. Working alongside fellow photographers and business owners is something we’re genuinely excited about. Our goal is to make running your business easier and more enjoyable through all the hard work we put in!</p>
+</section>
 <section id="about" class="section">
     <h2>Why Bespoke?</h2>
       <img src="images/index/bespoke-tone-edits.webp" alt="About Jenn and Steve" loading="lazy" />
